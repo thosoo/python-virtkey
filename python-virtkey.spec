@@ -5,7 +5,7 @@
 
 Name:           python-%{srcname}
 Version:        0.63.0
-Release:        13%{?dist}
+Release:        14%{?dist}
 Summary:        %{sum}
 
 #missing copy of GPL, licensing info in source file
@@ -50,6 +50,9 @@ mv docs/api.txt api.txt
 %{python3_sitearch}/*
 
 %changelog
+* Mon Dec 21 2020 Thaison Nguyen <thieson08@me.com> - 0.63.0-14
+- Fixed source link
+
 * Mon Aug 19 2019 Miro Hrončok <mhroncok@redhat.com> - 0.63.0-13
 - Rebuilt for Python 3.8
 

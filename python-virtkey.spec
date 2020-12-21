@@ -11,7 +11,7 @@ Summary:        %{sum}
 #missing copy of GPL, licensing info in source file
 License:        GPLv2+
 URL:            https://launchpad.net/virtkey
-Source0:        http://launchpad.net/virtkey/trunk/%{shortver}/+download/%{srcname}-%{version}.tar.gz
+Source0:        https://launchpad.net/virtkey/%{shortver}/%{ver}/+download/%{srcname}-%{version}.tar.gz
 #Patch0:         virtkey-gdk-pixbuf-headers.patch
 
 BuildRequires:  gcc
